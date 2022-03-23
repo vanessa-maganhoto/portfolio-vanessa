@@ -1,0 +1,22 @@
+header{
+    background-color: #9d8189;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    color: rgb(241, 238, 238);
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+}
+
+.header-item-menu{
+    margin: 0 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+

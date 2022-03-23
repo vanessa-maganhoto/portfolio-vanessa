@@ -1,0 +1,32 @@
+
+
+.container-projects{
+    background-color: #ffe7eb;
+}
+
+.project-title{
+    text-align: center;
+    margin-bottom: 1.88em;
+    padding-top: 0.5em;
+    font-size: 50px;
+    color: #9D8189;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.list-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+}
+
+.card-projects p{
+    width: 270px;
+}

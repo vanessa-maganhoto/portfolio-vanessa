@@ -1,0 +1,61 @@
+section{
+    padding: 30px;
+}
+.tilte-tools{
+    text-align: center;
+    margin-bottom: 1.88em;
+    padding-top: 0.5em;
+    font-size: 50px;
+    color: #9D8189;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.container-tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+}
+.icons{
+    width: 87px;
+    height: 87px;
+}
+
+.div-tools:nth-child(1) > svg{
+    color: #dd4b25;
+}
+
+.div-tools:nth-child(2) > svg{
+    color: #2073F7;
+}
+
+.div-tools:nth-child(3) > svg{
+    color: #DBB92E;
+}
+
+.div-tools:nth-child(4) > svg{
+    color: #8411F6;
+}
+
+.div-tools:nth-child(5) > svg{
+    color: #05A5D1;
+}
+
+.div-tools:nth-child(6) > svg{
+    color: #6AAD3D;
+}
+
+.div-tools:nth-child(10) > svg{
+    color: #438BC6;
+}
+
+.div-tools:nth-child(11) > svg{
+    color: #264E67;
+}

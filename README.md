@@ -1,5 +1,3 @@
-# portfolio-vanessa
-
 
 # Getting Started with Create React App
 

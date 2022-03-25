@@ -7,7 +7,8 @@ export default function Banner(){
 
             <div className="centralizar-coluna">
                 <h1 >Vanessa Matos</h1>
-                <p className="descricao-vanessa" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p className="descricao-vanessa" >Aprecio os desafios e as novas oportunidades que a vida me oferece. Atualmente, mergulhei no universo da programação após um período dedicada a educação. Um ciclo se encerrou e outro iniciou. Sou estudante do Certified Tech Developer da Digital House e pretendo me especializar em Back End. Moro na cidade de São Paulo, a cidade que me mostrou que podemos ter vários objetivos, rever os caminhos e recalcular as rotas da nossa vida. </p>
+                <p className="descricao-vanessa" > Uma parte do novo camiho da minha vida esá logo abaixo. Alguns projetos que fui desenvolvendo em cursos que realizei desde que inicei a transição de carreira. Em todos os dias podemos enxergar a possibilidade de recomeçar. O meu recomeço profissional está aqui. Até breve!</p>
             </div>
 
             <img src={imagem} className="img-vanessa" alt="Foto Vanessa"/>

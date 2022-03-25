@@ -2,9 +2,11 @@
 
 .container-projects{
     background-color: #ffe7eb;
+    /* margin-bottom: 25px; */
+    padding-bottom: 30px;
 }
 
-.project-title{
+.project-title-h2{
     text-align: center;
     margin-bottom: 1.88em;
     padding-top: 0.5em;
@@ -29,4 +31,25 @@
 
 .card-projects p{
     width: 270px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.card-projects h3{
+    padding: 8px;
+}
+
+@media (max-width: 360px){
+    .container-projects{
+        margin-top: 280px;
+    }
+
+    .project-title-h2{
+        font-size: 43px;
+        margin-bottom: 0.5em;
+    }
+
+    .card-projects{
+        margin: 20px 50px;
+    }
 }

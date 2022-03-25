@@ -1,7 +1,5 @@
 section{
-    background-color: #fbfbfb;
-    
-    
+    background-color: #fbfbfb;  
 }
 
 .container{
@@ -16,7 +14,6 @@ section{
 h1{
     color: #F4ACB7;
     font-size: 3em;
-    
 }
 
 .centralizar-coluna{
@@ -25,8 +22,9 @@ h1{
 }
 
 .descricao-vanessa{
-    margin: 20px 15px 10px 0px;
-    padding: 4px;
+    margin: 10px 15px 5px 0px;
+    padding: .3px;
+    text-align: justify;
 } 
 
 .img-vanessa{
@@ -35,5 +33,52 @@ h1{
     padding: 20px;
     /* background-position: center;
     background-size: cover; */
-    
 }
+
+@media (max-width: 730px){
+    h1{
+        font-size: 2.5em;
+        margin-top: 10px;
+    }
+
+    .img-vanessa{
+        width: 17em;
+        height: 17em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 360px){
+    .container{
+        display: grid;
+        grid-column: auto;
+    }
+    
+    .img-vanessa{
+        width: 17em;
+        height: 17em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 950px){
+    .container{
+        display: grid;
+        grid-column: auto;
+        gap: -2px;
+        align-content: center;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .img-vanessa{
+        
+        width: 17em;
+        height: 17em;
+        /* padding: 10px; */
+        align-items: center;
+        margin: auto;
+    }
+}
+

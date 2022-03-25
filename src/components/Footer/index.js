@@ -3,7 +3,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si"
 
 export default function Footer(){
     return(
-        <footer>
+        <footer id="contato">
        
             <ul className="social-list">
                 <a href="https://github.com/vanessa-maganhoto" target="_blank" rel="noreferrer">

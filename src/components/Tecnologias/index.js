@@ -8,7 +8,7 @@ import imagemHibernate from "../../assets/hibernate.png"
 
 export default function Tecnologias() {
     return (
-        <section>
+        <section id="ferramentas">
             <h2 className="tilte-tools">Ferramentas</h2>
 
 

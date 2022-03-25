@@ -1,5 +1,10 @@
 import "./styles.css"
-
+import imgLocImoveis from "../../assets/locimoveis.png"
+import imgToDoList from "../../assets/to-do-list.png"
+import imgCorrecaoProvas from "../../assets/correcaoprovas.png"
+import imgPaoQuente from "../../assets/paoquente.png"
+import imgF6 from "../../assets/f6.png"
+import imgBhaskara from "../../assets/resolvendobhaskara.png"
 
 export default function Projects() {
     
@@ -9,15 +14,15 @@ export default function Projects() {
             name: "Loc Imoveis",
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's", 
             link: "https://github.com/vanessa-maganhoto/projeto-loc-imoveis",
-            image: "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+            image: imgLocImoveis,
         },
 
         {
             id: "2",
-            name: "Projeto Cordel",
+            name: "Resolvendo Bhaskara",
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's", 
-            link: "https://github.com/vanessa-maganhoto/projeto-cordel",
-            image: "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+            link: "https://github.com/vanessa-maganhoto/desafios-JS/tree/main/desafio010",
+            image: imgBhaskara,
         },
 
         {
@@ -25,7 +30,7 @@ export default function Projects() {
             name: "Lista To-Do",
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's", 
             link: "https://github.com/vanessa-maganhoto/Lista-to-do-Checkpoint2",
-            image: "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+            image: imgToDoList,
         },
 
         {
@@ -33,7 +38,7 @@ export default function Projects() {
             name: "Página Correção de Provas",
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's", 
             link: "https://github.com/vanessa-maganhoto/exercicio-correcao-de-provas",
-            image: "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+            image: imgCorrecaoProvas,
         },
 
         {
@@ -41,7 +46,7 @@ export default function Projects() {
             name: "F6",
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's", 
             link: "https://github.com/rafaelnq/ctd-fe1-checkpoint3",
-            image: "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+            image: imgF6,
         },
 
         {
@@ -49,12 +54,12 @@ export default function Projects() {
             name: "Padaria Pão Quente",
             descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's", 
             link: "https://github.com/vanessa-maganhoto/projeto-site-padaria",
-            image: "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+            image: imgPaoQuente,
         },
     ]
     
     return (
-        <section className="container-projects">
+        <section className="container-projects" id="projects">
             <h2 className="project-title">Projetos</h2>
             <ul className="list-projects">
                 {data.map(({ id, name, image, descricao, link}) => (

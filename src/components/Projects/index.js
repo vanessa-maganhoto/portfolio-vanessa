@@ -63,10 +63,10 @@ export default function Projects() {
             <h2 className="project-title-h2">Projetos</h2>
             <ul className="list-projects">
                 {data.map(({ id, name, image, descricao, link}) => (
-                    <a key={id} href={link} target="_blank">
+                    <a key={id} href={link} target="_blank" rel="noreferrer">
                         <li className="card-projects">
                             <h3 className="title-project-h3">{name}</h3>
-                            <img  src={image} width={300}/>
+                            <img  src={image} width={300} alt="Imagem do projeto"/>
                             <p>{descricao}</p>
 
                         </li>
